@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDEE89F1EA8A4D0006DB98B /* KHImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE89D1EA8A4D0006DB98B /* KHImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDEE8AC1EA8A542006DB98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8AB1EA8A542006DB98B /* AppDelegate.swift */; };
+		7BDEE8AE1EA8A542006DB98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8AD1EA8A542006DB98B /* ViewController.swift */; };
+		7BDEE8B11EA8A542006DB98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDEE8AF1EA8A542006DB98B /* Main.storyboard */; };
+		7BDEE8B41EA8A542006DB98B /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8B21EA8A542006DB98B /* Example.xcdatamodeld */; };
+		7BDEE8B61EA8A542006DB98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDEE8B51EA8A542006DB98B /* Assets.xcassets */; };
+		7BDEE8B91EA8A542006DB98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDEE8B71EA8A542006DB98B /* LaunchScreen.storyboard */; };
+		7BDEE8D01EA8A578006DB98B /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8BE1EA8A578006DB98B /* CGGeometry+RSKImageCropper.h */; };
+		7BDEE8D11EA8A578006DB98B /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8BF1EA8A578006DB98B /* CGGeometry+RSKImageCropper.m */; };
+		7BDEE8D21EA8A578006DB98B /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8C01EA8A578006DB98B /* RSKImageCropper.h */; };
+		7BDEE8D31EA8A578006DB98B /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BDEE8C21EA8A578006DB98B /* RSKImageCropperStrings.bundle */; };
+		7BDEE8D41EA8A578006DB98B /* RSKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8C31EA8A578006DB98B /* RSKImageCropViewController.h */; };
+		7BDEE8D51EA8A578006DB98B /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8C41EA8A578006DB98B /* RSKImageCropViewController.m */; };
+		7BDEE8D61EA8A578006DB98B /* RSKImageCropViewController+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8C51EA8A578006DB98B /* RSKImageCropViewController+Protected.h */; };
+		7BDEE8D71EA8A578006DB98B /* RSKImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8C61EA8A578006DB98B /* RSKImageScrollView.h */; };
+		7BDEE8D81EA8A578006DB98B /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8C71EA8A578006DB98B /* RSKImageScrollView.m */; };
+		7BDEE8D91EA8A578006DB98B /* RSKInternalUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8C81EA8A578006DB98B /* RSKInternalUtility.h */; };
+		7BDEE8DA1EA8A578006DB98B /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8C91EA8A578006DB98B /* RSKInternalUtility.m */; };
+		7BDEE8DB1EA8A578006DB98B /* RSKTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8CA1EA8A578006DB98B /* RSKTouchView.h */; };
+		7BDEE8DC1EA8A578006DB98B /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8CB1EA8A578006DB98B /* RSKTouchView.m */; };
+		7BDEE8DD1EA8A578006DB98B /* UIApplication+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8CC1EA8A578006DB98B /* UIApplication+RSKImageCropper.h */; };
+		7BDEE8DE1EA8A578006DB98B /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8CD1EA8A578006DB98B /* UIApplication+RSKImageCropper.m */; };
+		7BDEE8DF1EA8A578006DB98B /* UIImage+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDEE8CE1EA8A578006DB98B /* UIImage+RSKImageCropper.h */; };
+		7BDEE8E01EA8A578006DB98B /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEE8CF1EA8A578006DB98B /* UIImage+RSKImageCropper.m */; };
+		7BDEE8E11EA8A5CA006DB98B /* KHImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDEE89A1EA8A4CF006DB98B /* KHImageCropper.framework */; };
+		7BDEE8E21EA8A5CA006DB98B /* KHImageCropper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDEE89A1EA8A4CF006DB98B /* KHImageCropper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDEE8E31EA8A5CA006DB98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDEE8911EA8A4CF006DB98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDEE8991EA8A4CF006DB98B;
+			remoteInfo = KHImageCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BDEE8E51EA8A5CB006DB98B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7BDEE8E21EA8A5CA006DB98B /* KHImageCropper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BDEE89A1EA8A4CF006DB98B /* KHImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KHImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDEE89D1EA8A4D0006DB98B /* KHImageCropper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHImageCropper.h; sourceTree = "<group>"; };
+		7BDEE89E1EA8A4D0006DB98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDEE8A91EA8A541006DB98B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDEE8AB1EA8A542006DB98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BDEE8AD1EA8A542006DB98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BDEE8B01EA8A542006DB98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BDEE8B31EA8A542006DB98B /* Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example.xcdatamodel; sourceTree = "<group>"; };
+		7BDEE8B51EA8A542006DB98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDEE8B81EA8A542006DB98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BDEE8BA1EA8A542006DB98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDEE8BE1EA8A578006DB98B /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		7BDEE8BF1EA8A578006DB98B /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		7BDEE8C01EA8A578006DB98B /* RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropper.h; sourceTree = "<group>"; };
+		7BDEE8C11EA8A578006DB98B /* RSKImageCropper.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = RSKImageCropper.modulemap; sourceTree = "<group>"; };
+		7BDEE8C21EA8A578006DB98B /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		7BDEE8C31EA8A578006DB98B /* RSKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropViewController.h; sourceTree = "<group>"; };
+		7BDEE8C41EA8A578006DB98B /* RSKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewController.m; sourceTree = "<group>"; };
+		7BDEE8C51EA8A578006DB98B /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		7BDEE8C61EA8A578006DB98B /* RSKImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageScrollView.h; sourceTree = "<group>"; };
+		7BDEE8C71EA8A578006DB98B /* RSKImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollView.m; sourceTree = "<group>"; };
+		7BDEE8C81EA8A578006DB98B /* RSKInternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKInternalUtility.h; sourceTree = "<group>"; };
+		7BDEE8C91EA8A578006DB98B /* RSKInternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKInternalUtility.m; sourceTree = "<group>"; };
+		7BDEE8CA1EA8A578006DB98B /* RSKTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKTouchView.h; sourceTree = "<group>"; };
+		7BDEE8CB1EA8A578006DB98B /* RSKTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchView.m; sourceTree = "<group>"; };
+		7BDEE8CC1EA8A578006DB98B /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		7BDEE8CD1EA8A578006DB98B /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		7BDEE8CE1EA8A578006DB98B /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		7BDEE8CF1EA8A578006DB98B /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDEE8961EA8A4CF006DB98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDEE8A61EA8A541006DB98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8E11EA8A5CA006DB98B /* KHImageCropper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDEE8901EA8A4CF006DB98B = {
+			isa = PBXGroup;
+			children = (
+				7BDEE89C1EA8A4CF006DB98B /* KHImageCropper */,
+				7BDEE8AA1EA8A542006DB98B /* Example */,
+				7BDEE89B1EA8A4CF006DB98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDEE89B1EA8A4CF006DB98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEE89A1EA8A4CF006DB98B /* KHImageCropper.framework */,
+				7BDEE8A91EA8A541006DB98B /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDEE89C1EA8A4CF006DB98B /* KHImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEE8BE1EA8A578006DB98B /* CGGeometry+RSKImageCropper.h */,
+				7BDEE8BF1EA8A578006DB98B /* CGGeometry+RSKImageCropper.m */,
+				7BDEE8C01EA8A578006DB98B /* RSKImageCropper.h */,
+				7BDEE8C11EA8A578006DB98B /* RSKImageCropper.modulemap */,
+				7BDEE8C21EA8A578006DB98B /* RSKImageCropperStrings.bundle */,
+				7BDEE8C31EA8A578006DB98B /* RSKImageCropViewController.h */,
+				7BDEE8C41EA8A578006DB98B /* RSKImageCropViewController.m */,
+				7BDEE8C51EA8A578006DB98B /* RSKImageCropViewController+Protected.h */,
+				7BDEE8C61EA8A578006DB98B /* RSKImageScrollView.h */,
+				7BDEE8C71EA8A578006DB98B /* RSKImageScrollView.m */,
+				7BDEE8C81EA8A578006DB98B /* RSKInternalUtility.h */,
+				7BDEE8C91EA8A578006DB98B /* RSKInternalUtility.m */,
+				7BDEE8CA1EA8A578006DB98B /* RSKTouchView.h */,
+				7BDEE8CB1EA8A578006DB98B /* RSKTouchView.m */,
+				7BDEE8CC1EA8A578006DB98B /* UIApplication+RSKImageCropper.h */,
+				7BDEE8CD1EA8A578006DB98B /* UIApplication+RSKImageCropper.m */,
+				7BDEE8CE1EA8A578006DB98B /* UIImage+RSKImageCropper.h */,
+				7BDEE8CF1EA8A578006DB98B /* UIImage+RSKImageCropper.m */,
+				7BDEE89D1EA8A4D0006DB98B /* KHImageCropper.h */,
+				7BDEE89E1EA8A4D0006DB98B /* Info.plist */,
+			);
+			path = KHImageCropper;
+			sourceTree = "<group>";
+		};
+		7BDEE8AA1EA8A542006DB98B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEE8AB1EA8A542006DB98B /* AppDelegate.swift */,
+				7BDEE8AD1EA8A542006DB98B /* ViewController.swift */,
+				7BDEE8AF1EA8A542006DB98B /* Main.storyboard */,
+				7BDEE8B51EA8A542006DB98B /* Assets.xcassets */,
+				7BDEE8B71EA8A542006DB98B /* LaunchScreen.storyboard */,
+				7BDEE8BA1EA8A542006DB98B /* Info.plist */,
+				7BDEE8B21EA8A542006DB98B /* Example.xcdatamodeld */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BDEE8971EA8A4CF006DB98B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8D41EA8A578006DB98B /* RSKImageCropViewController.h in Headers */,
+				7BDEE89F1EA8A4D0006DB98B /* KHImageCropper.h in Headers */,
+				7BDEE8DB1EA8A578006DB98B /* RSKTouchView.h in Headers */,
+				7BDEE8DF1EA8A578006DB98B /* UIImage+RSKImageCropper.h in Headers */,
+				7BDEE8DD1EA8A578006DB98B /* UIApplication+RSKImageCropper.h in Headers */,
+				7BDEE8D01EA8A578006DB98B /* CGGeometry+RSKImageCropper.h in Headers */,
+				7BDEE8D21EA8A578006DB98B /* RSKImageCropper.h in Headers */,
+				7BDEE8D61EA8A578006DB98B /* RSKImageCropViewController+Protected.h in Headers */,
+				7BDEE8D71EA8A578006DB98B /* RSKImageScrollView.h in Headers */,
+				7BDEE8D91EA8A578006DB98B /* RSKInternalUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BDEE8991EA8A4CF006DB98B /* KHImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDEE8A21EA8A4D0006DB98B /* Build configuration list for PBXNativeTarget "KHImageCropper" */;
+			buildPhases = (
+				7BDEE8951EA8A4CF006DB98B /* Sources */,
+				7BDEE8961EA8A4CF006DB98B /* Frameworks */,
+				7BDEE8971EA8A4CF006DB98B /* Headers */,
+				7BDEE8981EA8A4CF006DB98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHImageCropper;
+			productName = KHImageCropper;
+			productReference = 7BDEE89A1EA8A4CF006DB98B /* KHImageCropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BDEE8A81EA8A541006DB98B /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDEE8BB1EA8A542006DB98B /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				7BDEE8A51EA8A541006DB98B /* Sources */,
+				7BDEE8A61EA8A541006DB98B /* Frameworks */,
+				7BDEE8A71EA8A541006DB98B /* Resources */,
+				7BDEE8E51EA8A5CB006DB98B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDEE8E41EA8A5CA006DB98B /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 7BDEE8A91EA8A541006DB98B /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDEE8911EA8A4CF006DB98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hakozaki;
+				TargetAttributes = {
+					7BDEE8991EA8A4CF006DB98B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 667RSF8RJ3;
+						ProvisioningStyle = Automatic;
+					};
+					7BDEE8A81EA8A541006DB98B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 667RSF8RJ3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BDEE8941EA8A4CF006DB98B /* Build configuration list for PBXProject "KHImageCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDEE8901EA8A4CF006DB98B;
+			productRefGroup = 7BDEE89B1EA8A4CF006DB98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDEE8991EA8A4CF006DB98B /* KHImageCropper */,
+				7BDEE8A81EA8A541006DB98B /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDEE8981EA8A4CF006DB98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8D31EA8A578006DB98B /* RSKImageCropperStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDEE8A71EA8A541006DB98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8B91EA8A542006DB98B /* LaunchScreen.storyboard in Resources */,
+				7BDEE8B61EA8A542006DB98B /* Assets.xcassets in Resources */,
+				7BDEE8B11EA8A542006DB98B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDEE8951EA8A4CF006DB98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8DA1EA8A578006DB98B /* RSKInternalUtility.m in Sources */,
+				7BDEE8DC1EA8A578006DB98B /* RSKTouchView.m in Sources */,
+				7BDEE8D81EA8A578006DB98B /* RSKImageScrollView.m in Sources */,
+				7BDEE8DE1EA8A578006DB98B /* UIApplication+RSKImageCropper.m in Sources */,
+				7BDEE8D11EA8A578006DB98B /* CGGeometry+RSKImageCropper.m in Sources */,
+				7BDEE8D51EA8A578006DB98B /* RSKImageCropViewController.m in Sources */,
+				7BDEE8E01EA8A578006DB98B /* UIImage+RSKImageCropper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDEE8A51EA8A541006DB98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEE8AE1EA8A542006DB98B /* ViewController.swift in Sources */,
+				7BDEE8B41EA8A542006DB98B /* Example.xcdatamodeld in Sources */,
+				7BDEE8AC1EA8A542006DB98B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDEE8E41EA8A5CA006DB98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDEE8991EA8A4CF006DB98B /* KHImageCropper */;
+			targetProxy = 7BDEE8E31EA8A5CA006DB98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDEE8AF1EA8A542006DB98B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDEE8B01EA8A542006DB98B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BDEE8B71EA8A542006DB98B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDEE8B81EA8A542006DB98B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDEE8A01EA8A4D0006DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BDEE8A11EA8A4D0006DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BDEE8A31EA8A4D0006DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 667RSF8RJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KHImageCropper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakozaki.KHImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BDEE8A41EA8A4D0006DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 667RSF8RJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KHImageCropper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakozaki.KHImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7BDEE8BC1EA8A542006DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 667RSF8RJ3;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakozaki.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = KHImageCropper/KHImageCropper.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7BDEE8BD1EA8A542006DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 667RSF8RJ3;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakozaki.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = KHImageCropper/KHImageCropper.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDEE8941EA8A4CF006DB98B /* Build configuration list for PBXProject "KHImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDEE8A01EA8A4D0006DB98B /* Debug */,
+				7BDEE8A11EA8A4D0006DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDEE8A21EA8A4D0006DB98B /* Build configuration list for PBXNativeTarget "KHImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDEE8A31EA8A4D0006DB98B /* Debug */,
+				7BDEE8A41EA8A4D0006DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BDEE8BB1EA8A542006DB98B /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDEE8BC1EA8A542006DB98B /* Debug */,
+				7BDEE8BD1EA8A542006DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BDEE8B21EA8A542006DB98B /* Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BDEE8B31EA8A542006DB98B /* Example.xcdatamodel */,
+			);
+			currentVersion = 7BDEE8B31EA8A542006DB98B /* Example.xcdatamodel */;
+			path = Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BDEE8911EA8A4CF006DB98B /* Project object */;
+}
